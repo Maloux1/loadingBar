@@ -8,7 +8,7 @@ using namespace std;
 
 int main(int argc, char const *argv[]){
 	
-	loadingBar::loadingBar downloadLoadingBar("Downloading, please wait...", 128); // create a loadingBar with 128 states possibles (default to 100)
+	loadingBar downloadLoadingBar("Downloading, please wait...", 128); // create a loadingBar with 128 states possibles (default to 100)
 
 	int i;
 	// here we increase the loadingBar state 128 times
